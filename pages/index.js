@@ -7,6 +7,7 @@ import formatDate from '@/lib/utils/formatDate'
 
 import NewsletterForm from '@/components/NewsletterForm'
 import Image from 'next/image'
+import Rain from '@/layouts/Rain'
 
 const MAX_DISPLAY = 5
 
@@ -18,9 +19,19 @@ export async function getStaticProps() {
 
 export default function Home({ posts }) {
   return (
-    <>
+    <div className="relative">
+      {/* <div
+        className=" absolute bottom-[2%]  left-[-4%] z-[-10] h-[392px] w-[392px] rounded-[50%]"
+        style={{
+          background: 'linear-gradient(180deg, #6dcde8 -1.14%, #14b8a6 98.86%)',
+          filter: 'blur(20.193px)',
+        }}></div> */}
+      <div className="absolute">
+        <div className="drop"></div>
+        <div className="wave absolute"></div>
+      </div>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-      <div className="flex h-[65vh] items-center">
+      <div className="relative flex h-[65vh] items-center">
         <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
 
         <div className="md:flex">
@@ -55,16 +66,26 @@ export default function Home({ posts }) {
               Download Resume
             </button>
           </div>
-          <div className="hidden items-center md:flex">
+          <div className="relative hidden items-center md:flex">
+            <div
+              className="absolute right-0  z-[-10] h-[292px] w-[292px] animate-scale rounded-[50%]"
+              style={{
+                background: 'linear-gradient(180deg, #6dcde8 -1.14%, #14b8a6 98.86%)',
+                filter: 'blur(100.193px)',
+              }}
+            ></div>
             <Image src="/static/images/sujeet.svg" alt="self" height="650" width="650" />
           </div>
         </div>
       </div>
+      {/* <div className="absolute bottom-0  w-[100%] border">
+        <Rain />
+      </div> */}
       {/* {siteMetadata.newsletter.provider !== '' && (
         <div className="flex items-center justify-center pt-4 ">
           <NewsletterForm />
         </div>
       )} */}
-    </>
+    </div>
   )
 }

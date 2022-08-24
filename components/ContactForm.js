@@ -121,7 +121,7 @@ export default function ContactForm() {
         <div className="mb-6 w-full px-3 md:mb-0 md:w-1/2">
           <label className="mb-2 block text-xs font-bold uppercase tracking-wide">First Name</label>
           <input
-            className="mb-3 block w-full appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-black"
+            className="mb-3 block w-full appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-gray-800"
             id="grid-first-name"
             type="text"
             placeholder="Jane"
@@ -137,7 +137,7 @@ export default function ContactForm() {
         <div className="w-full px-3 md:w-1/2">
           <label className="mb-2 block text-xs font-bold uppercase tracking-wide">Last Name</label>
           <input
-            className="mb-3 block w-full appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-black dark:bg-black"
+            className="mb-3 block w-full appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-gray-800"
             id="grid-last-name"
             type="text"
             placeholder="Doe"
@@ -157,7 +157,7 @@ export default function ContactForm() {
             E-mail
           </label>
           <input
-            className="mb-3 block w-full appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-black dark:bg-black"
+            className="mb-3 block w-full appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-gray-800 dark:bg-gray-800"
             id="email"
             type="email"
             placeholder="jane@email.com"
@@ -175,7 +175,7 @@ export default function ContactForm() {
           <label className="mb-2 block text-xs font-bold uppercase tracking-wide">Message</label>
           <textarea
             placeholder="Write a message......"
-            className=" no-resize mb-3 block h-48 w-full resize-none appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-black dark:bg-black"
+            className=" no-resize mb-3 block h-48 w-full resize-none appearance-none rounded border-0 bg-gray-200 py-3 px-4 leading-tight focus:border-transparent focus:outline-none focus:ring-2 focus:ring-primary-600 dark:border dark:bg-gray-800 dark:bg-gray-800"
             id="message"
             value={formik.values.message}
             onChange={(event) => {

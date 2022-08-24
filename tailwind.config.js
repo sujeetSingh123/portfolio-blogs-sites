@@ -18,6 +18,15 @@ module.exports = {
       spacing: {
         '9/16': '56.25%',
       },
+      keyframes: {
+        scale: {
+          '0%, 100%': { scale: '1' },
+          '50%': { scale: '1.2' },
+        },
+      },
+      animation: {
+        scale: 'scale 3.8s ease-in-out infinite',
+      },
       lineHeight: {
         11: '2.75rem',
         12: '3rem',
