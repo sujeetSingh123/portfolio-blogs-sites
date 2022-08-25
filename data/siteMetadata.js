@@ -1,15 +1,19 @@
 const siteMetadata = {
-  title: `Sujeet Singh's Blog`,
+  title: `Sujeet Singh`,
   author: 'Sujeet Singh',
   headerTitle: 'Sujeet',
-  description: 'Checkout my latest blogs regarding data',
+  description:
+    'I’m ,Sujeet Singh, a software engineer specializing in building exceptional digital experiences. Currently, I’m focused on building accessible, human-centered products at Upstatement.',
+  blogsDescriptions: 'Check out my latest blogs regarding software development and amazing tools',
+  projectDescriptions: 'Check out the projects that I have completed and it is really cool',
+  contactDescriptions: 'Contact me with the message and I will get back to you as soon as possible',
   language: 'en-us',
   theme: 'system', // system, dark or light
-  siteUrl: 'https://tailwind-nextjs-starter-blog.vercel.app',
+  siteUrl: 'https://www.singhsujeet.com.np/',
   siteRepo: 'https://github.com/timlrx/tailwind-nextjs-starter-blog',
   siteLogo: '/static/images/logo.png',
   image: '/static/images/avatar.png',
-  socialBanner: '/static/images/twitter-card.png',
+  socialBanner: '/static/images/avatar.png',
   email: 'ssujeet2019@gmail.com',
   github: 'https://github.com/sujeetSingh123',
   twitter: 'https://twitter.com/Twitter',

@@ -32,8 +32,6 @@ export default function Home({ posts }) {
       </div>
       <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
       <div className="relative flex h-[65vh] items-center">
-        <PageSEO title={siteMetadata.title} description={siteMetadata.description} />
-
         <div className="md:flex">
           <div className="my-auto text-center md:text-left ">
             <h5 className="text-primary-500">HI THERE 👋 , I'M</h5>
