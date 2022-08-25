@@ -21,7 +21,7 @@ const projectsData = [
   {
     title: 'Samprit E-commerce Template',
     description: `Samprit is eCommerce templates. This eCommerce theme features a clean and modern design and the best: is packed with endless customization options. It is made from javascript, react and bootstrap.`,
-    imgSrc: '/static/images/Samprit.png',
+    imgSrc: '/static/images/samprit.png',
     href: 'https://ecommercesamprit.netlify.app',
   },
 ]
