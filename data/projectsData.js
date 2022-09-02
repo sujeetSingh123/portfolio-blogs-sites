@@ -11,6 +11,19 @@ const projectsData = [
     imgSrc: '/static/images/holaplex.png',
     href: 'https://github.com/holaplex/mobile',
   },
+  {
+    title: 'Lineage Journey Timeline',
+    description: `Lineage Journey Timeline is graph based features for studying history of christianity.`,
+    imgSrc: '/static/images/timeline.png',
+    href: 'https://test.lineagejourney.com/timeline/',
+  },
+
+  {
+    title: 'Nepal NGO',
+    description: `Digital Presence of Nepal NGO which works for children welfare and country hunger and it is just a template `,
+    imgSrc: '/static/images/HamroNepal.png',
+    href: 'https://nepal-seven.vercel.app/',
+  },
 
   {
     title: 'Finance Management System Template',
