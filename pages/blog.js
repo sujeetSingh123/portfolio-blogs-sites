@@ -17,7 +17,6 @@ export async function getStaticProps() {
 }
 
 export default function Blog({ posts, initialDisplayPosts, pagination }) {
-  console.log(posts, 'posts')
   return (
     <>
       <PageSEO
