@@ -5,7 +5,7 @@ tags: ["REST API", "api-versioning", "nodejs", "backend"]
 draft: false
 summary: As applications evolve and new features are introduced, maintaining backward compatibility becomes essential to ensure a seamless experience for existing users while allowing for innovation.
 authors: ["default"]
-images: ["/static/images/canada/mountains.jpg", "/static/images/canada/toronto.jpg"]
+images: ["/static/images/blogs/API-versioning/api-versioning.jpg"]
 ---
 
 API versioning is a critical aspect of software development, especially in the realm of web services. As applications evolve and new features are introduced, maintaining backward compatibility becomes essential to ensure a seamless experience for existing users while allowing for innovation. In this blog post, we delve into the significance of API versioning, exploring its necessity and the various methods through which it can be implemented.
