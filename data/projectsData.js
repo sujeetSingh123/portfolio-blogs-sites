@@ -1,9 +1,9 @@
 const projectsData = [
   {
-    title: 'Tascaid',
-    description: `Tascaid is a cloud based project and project related task's ticket management system. It has features of real time chat applications, document management , Scrum board and many other.`,
+    title: 'Tascaide',
+    description: `Tascaide is a cloud based project and project related task's ticket management system. It has features of real time chat applications, document management , Scrum board and many other.`,
     imgSrc: '/static/images/tascaid.png',
-    href: 'https://www.tascaid.com',
+    href: 'https://www.tascaide.com',
   },
   {
     title: 'Solz NFT',
